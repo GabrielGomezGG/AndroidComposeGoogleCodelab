@@ -13,8 +13,7 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun MyBody(modifier: Modifier = Modifier) {
-    Column(modifier = modifier
-        .fillMaxSize(),
+    Column(modifier = modifier.fillMaxWidth(),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
@@ -25,6 +24,6 @@ fun MyBody(modifier: Modifier = Modifier) {
         )
         Spacer(modifier = Modifier.size(6.dp))
         Text(text = "Gabriel Gomez", fontSize = 50.sp, color = Color.White)
-        Text(text = "Programador backend", color = Color(0xFF48dc9a))
+        Text(text = "Programador Android Compose", color = Color(0xFF48dc9a))
     }
 }
