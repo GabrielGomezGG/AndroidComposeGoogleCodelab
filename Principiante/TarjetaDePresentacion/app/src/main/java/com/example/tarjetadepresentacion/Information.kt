@@ -23,8 +23,8 @@ fun MyInformation(modifier: Modifier = Modifier) {
     val iconEmail: ImageVector = Icons.Filled.Email
 
     Column(Modifier.fillMaxWidth()) {
-        MyData(icon = iconPhone, text = "+11 321 123 21")
-        MyData(icon = iconShare, text = "@gabrielgg")
+        MyData(icon = iconPhone, text = "+11 300 065 69")
+        MyData(icon = iconShare, text = "https://www.linkedin.com/in/gabrielgomezgg/")
         MyData(icon = iconEmail, text = "gabrielgomezgg1997@gmail.com")
     }
 
