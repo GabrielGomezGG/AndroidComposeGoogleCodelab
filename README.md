@@ -9,7 +9,7 @@
 ![tarjeta](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Principiante/TarjetaDePresentacion/tarjeta-de-presentacion.png)
 
 -----------------------
-## [Wolf App con Material Desing](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/tree/master/MaterialComposeExample)
+## [Wolf App con Material Design](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/tree/master/MaterialComposeExample)
 |App sin mucho estilo|App con Material Desing light mode|App con Material Desing night mode|
 |-|-|-|
 |![App sin mucho estilo](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/MaterialComposeExample/without%20style.png)|![App light mode](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/MaterialComposeExample/final-light-mode.png)|![App night mode](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/MaterialComposeExample/final-night-mode.png)|
