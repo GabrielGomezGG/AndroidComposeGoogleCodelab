@@ -29,4 +29,13 @@ class TipUITests {
             "No node with this text was found."
         )
     }
+
+    @Test
+    fun testDePruebaUI(){
+        composeTestRule.setContent {
+            TipTimeScreen()
+        }
+
+        composeTestRule.onNodeWithText("titi").assertExists()
+    }
 }

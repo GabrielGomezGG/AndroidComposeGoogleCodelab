@@ -14,4 +14,11 @@ class TipCalculatorTets {
         val actualTip = calculateTip(amount = amount, tipPercent = tipPercent, false)
         assertEquals(expectedTip, actualTip)
     }
+
+    @Test
+    fun testDePrueba(){
+        val esperado = "titi"
+        val obtenido = getNombre()
+        assertEquals(esperado,obtenido)
+    }
 }

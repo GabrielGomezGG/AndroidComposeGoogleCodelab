@@ -92,6 +92,7 @@ fun TipTimeScreen() {
             fontSize = 20.sp,
             fontWeight = FontWeight.Bold
         )
+        Text(text = "titi")
     }
 }
 
@@ -160,4 +161,9 @@ fun TipTimeScreenPreview() {
     TipTimeTheme {
         TipTimeScreen()
     }
+}
+
+@VisibleForTesting
+fun getNombre():String{
+    return "titi"
 }
