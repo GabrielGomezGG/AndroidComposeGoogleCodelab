@@ -4,18 +4,18 @@
 
 -----------------------
 
-# [Unidad 1: Tu primera app para Android](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/tree/master/Unidad_1_Tu_primera_app_para_Android)
+# [Unidad 1: Tu primera app para Android](https://developer.android.com/courses/android-basics-compose/unit-1)
 | Tarjeta de presentación | Administrador de Tareas | Articulo | Cuadrante |
 |-|-|-|-|
 |![](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_1_Tu_primera_app_para_Android/TarjetaDePresentacion/tarjeta-de-presentacion.png)| ![](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_1_Tu_primera_app_para_Android/AdministradorDeTareaas/admin.png) | ![](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_1_Tu_primera_app_para_Android/ArtculodeCompose/articulo.png) | ![](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_1_Tu_primera_app_para_Android/CuadranteDeCompose/cuadrante.png) 
 
 -----------------------
-# [Unidad 2: Compila la IU de una app](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/tree/master/Unidad_2_Compila_la_IU_de_una_app/)
+# [Unidad 2: Compila la IU de una app](https://developer.android.com/courses/android-basics-compose/unit-2)
 | Dice Roll | Tip Calculator | Bochi Art |
 |-|-|-|
 |![](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_2_Compila_la_IU_de_una_app/DiceRoller/dice_roll.png)| ![](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_2_Compila_la_IU_de_una_app/TipTime/tiptime2.png) | ![](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_2_Compila_la_IU_de_una_app/ArtSpace/bochi.gif)
 -----------------------
-# [Unidad 3: Cómo mostrar listas y usar Material Design](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/tree/master/Unidad_3_C%C3%B3mo_mostrar_listas_y_usar_Material_Design)
+# [Unidad 3: Cómo mostrar listas y usar Material Design](https://developer.android.com/courses/android-basics-compose/unit-3)
 ## [Wolf App con Material Design](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/tree/master/Unidad_3_C%C3%B3mo_mostrar_listas_y_usar_Material_Design/MaterialComposeExample)
 |App sin mucho estilo|App con Material Desing light mode|App con Material Desing night mode|
 |-|-|-|
