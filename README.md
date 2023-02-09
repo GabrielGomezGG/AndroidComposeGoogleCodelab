@@ -17,8 +17,9 @@
 -----------------------
 # [Unidad 3: Cómo mostrar listas y usar Material Design](https://developer.android.com/courses/android-basics-compose/unit-3)
 ## [Wolf App con Material Design](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/tree/master/Unidad_3_C%C3%B3mo_mostrar_listas_y_usar_Material_Design/MaterialComposeExample)
-|App sin mucho estilo|App con Material Desing light mode|App con Material Desing night mode|
-|-|-|-|
-|![App sin mucho estilo](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_3_C%C3%B3mo_mostrar_listas_y_usar_Material_Design/MaterialComposeExample/without%20style.png)|![App light mode](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_3_C%C3%B3mo_mostrar_listas_y_usar_Material_Design/MaterialComposeExample/final-light-mode.png)|![App night mode](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_3_C%C3%B3mo_mostrar_listas_y_usar_Material_Design/MaterialComposeExample/final-night-mode.png)|
+|WoofApp LightMode|WoofApp LightMode|
+|-|-|
+|![](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_3-1_Como_mostrar_listas_y_usar_MaterialDesign/MaterialComposeExample/WoofApp.gif) |  ![](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_3-1_Como_mostrar_listas_y_usar_MaterialDesign/MaterialComposeExample/final-night-mode.png)|
+
 
 
