@@ -17,9 +17,9 @@
 -----------------------
 # [Unidad 3: Cómo mostrar listas y usar Material Design](https://developer.android.com/courses/android-basics-compose/unit-3)
 ## [Wolf App con Material Design](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/tree/master/Unidad_3_C%C3%B3mo_mostrar_listas_y_usar_Material_Design/MaterialComposeExample)
-|WoofApp LightMode|WoofApp LightMode|
-|-|-|
-|![](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_3-1_Como_mostrar_listas_y_usar_MaterialDesign/MaterialComposeExample/WoofApp.gif) |  ![](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_3-1_Como_mostrar_listas_y_usar_MaterialDesign/MaterialComposeExample/final-night-mode.png)|
+|WoofApp LightMode|WoofApp LightMode|SuperHeroApp LightMode|SuperHeroApp DarkMode|
+|-|-|-|-|
+|![](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_3-1_Como_mostrar_listas_y_usar_MaterialDesign/MaterialComposeExample/WoofApp.gif) |  ![](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_3-1_Como_mostrar_listas_y_usar_MaterialDesign/MaterialComposeExample/final-night-mode.png)| ![](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_3-1_Como_mostrar_listas_y_usar_MaterialDesign/SuperHeroApp/HeroLight.gif) | ![](https://github.com/GabrielGomezGG/AndroidComposeGoogleCodelab/blob/master/Unidad_3-1_Como_mostrar_listas_y_usar_MaterialDesign/SuperHeroApp/HeroDark.gif)|
 
 
 
