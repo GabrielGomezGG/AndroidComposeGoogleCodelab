@@ -24,17 +24,18 @@ import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.example.marsphotos.MarsPhotosApplication
 import com.example.marsphotos.data.MarsPhotosRepository
+import com.example.marsphotos.network.MarsPhoto
 import kotlinx.coroutines.launch
 import java.io.IOException
 
 interface MarsUiState {
-    data class Success(val photos: String) : MarsUiState
+    data class Success(val photos: List<MarsPhoto>) : MarsUiState
     object Error : MarsUiState
     object Loading : MarsUiState
 }
 
 class MarsViewModel(
-    private val marsPhotosRepository: MarsPhotosRepository
+    private val marsPhotoRepository: MarsPhotosRepository
 ) : ViewModel() {
     /** The mutable State that stores the status of the most recent request */
 
@@ -58,8 +59,8 @@ class MarsViewModel(
         viewModelScope.launch {
             try {
                 //val marsPhotosRepository = DefaultMarsPhotosRepository()
-                val listResult = marsPhotosRepository.getMarsPhotos()
-                marsUiState = MarsUiState.Success("Success: ${listResult.size} Mars photos retrieved")
+                //val result = marsPhotosRepository.getMarsPhotos()[0]
+                marsUiState = MarsUiState.Success(marsPhotoRepository.getMarsPhotos())
             } catch (e: IOException) {
                 marsUiState = MarsUiState.Error
             }
@@ -71,7 +72,7 @@ class MarsViewModel(
             initializer {
                 val application = (this[APPLICATION_KEY] as MarsPhotosApplication)
                 val marsPhotosRepository = application.container.marsPhotosRepository
-                MarsViewModel(marsPhotosRepository = marsPhotosRepository)
+                MarsViewModel(marsPhotoRepository = marsPhotosRepository)
             }
         }
     }
