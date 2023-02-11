@@ -16,9 +16,12 @@
 package com.example.marsphotos.ui.screens
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.items
+import androidx.compose.foundation.lazy.items
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -27,7 +30,9 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import coil.compose.AsyncImage
 import com.example.marsphotos.R
+import com.example.marsphotos.network.MarsPhoto
 import com.example.marsphotos.ui.theme.MarsPhotosTheme
 
 @Composable
@@ -69,20 +74,32 @@ fun LoadingScreen(modifier: Modifier = Modifier) {
 /**
  * The home screen displaying result of fetching photos.
  */
+
 @Composable
 fun ResultScreen(marsUiState: String, modifier: Modifier = Modifier) {
+    Box(
+        contentAlignment = Alignment.Center
+    ) {
+        Text(text = marsUiState)
+    }
+}
+@Composable
+fun ResultScreen(marsUiState: List<MarsPhoto>, modifier: Modifier = Modifier) {
     Box(
         contentAlignment = Alignment.Center,
         modifier = modifier.fillMaxSize()
     ) {
-        Text(marsUiState)
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun ResultScreenPreview() {
-    MarsPhotosTheme {
-        ResultScreen(stringResource(R.string.placeholder_result))
+        LazyColumn {
+            items(marsUiState) {
+                Row(Modifier.fillMaxWidth()) {
+                    Text(text = "ID: ${it.id}")
+                    AsyncImage(
+                        model = it.imgSrc,
+                        contentDescription = null,
+                        modifier = Modifier.size(40.dp),
+                    )
+                }
+            }
+        }
     }
 }
