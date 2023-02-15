@@ -36,7 +36,7 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.example.marsphotos.R
-import com.example.marsphotos.network.MarsPhoto
+import com.example.marsphotos.data.model.MarsPhoto
 import com.example.marsphotos.ui.theme.MarsPhotosTheme
 
 @Composable

@@ -1,4 +1,4 @@
-package com.example.marsphotos.network
+package com.example.marsphotos.data.model
 
 import com.google.gson.annotations.SerializedName
 import kotlinx.serialization.SerialName

@@ -1,7 +1,6 @@
 package com.example.marsphotos.data
 
-import com.example.marsphotos.network.MarsApiService
-import kotlinx.serialization.json.Json
+import com.example.marsphotos.network.service.MarsApiService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
@@ -18,12 +17,13 @@ class DefaultAppContainer : AppContainer {
         .baseUrl(BASE_URL)
         .addConverterFactory(GsonConverterFactory.create())
         .build()
+        .create(MarsApiService::class.java)
 
-    private val retrofitService: MarsApiService by lazy {
-        retrofit.create(MarsApiService::class.java)
-    }
+//    private val retrofitService: MarsApiService by lazy {
+//        retrofit.create(MarsApiService::class.java)
+//    }
     override val marsPhotosRepository: MarsPhotosRepository by lazy {
-        DefaultMarsPhotosRepository(retrofitService)
+        DefaultMarsPhotosRepository(retrofit)
     }
 
 }
